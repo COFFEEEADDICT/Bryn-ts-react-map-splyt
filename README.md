@@ -8,7 +8,7 @@
 
 ## Process
 1. I started with some simple styling for a user to use be able to interact with a slider (as it was a small challenge I kept it all in the app level)
-2. I then added a map component which waits for an amount of taxis and then renders markers on the sliders choice
+2. I then added a map component which waits for an amount of taxis and then renders markers on the sliders choice (utilising a ddebounce)
 
 ## Third party libraries
 
