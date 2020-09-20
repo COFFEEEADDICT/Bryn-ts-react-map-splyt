@@ -9,10 +9,11 @@ const containerStyle = {
 };
 
 const MyGoogleMapComponent = ({taxis}: any) => {
+  
   const [selected, setSelected] = useState<DriversType | any>(null);
   
   return (
-    <LoadScript googleMapsApiKey="AIzaSyCo0VmLD7oG9jvx8ffcVcBK_6tjncT0xBI" >
+    <LoadScript googleMapsApiKey=" INSERT YOUR GOOGLE MAPS API KEY HERE " >
       
       <GoogleMap
         id="taxi-map"
